@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 3.75rem 5.2rem;
+  padding-right: 9rem;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: #42446e;
+    line-height: 7rem;
+
+    &__name {
+      background: linear-gradient(45deg, #0b97c2, #f133a2);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &__occupation {
+      background: linear-gradient(45deg, #0b97c2, #f133a2);
+      color: whitesmoke;
+      padding: 0.5rem;
+      border-radius: 0.75rem;
+    }
+  }
+
+  &__img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    box-shadow: 1.5rem 1.5rem 5rem gray;
+  }
+}
