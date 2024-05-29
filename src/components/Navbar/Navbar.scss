@@ -5,27 +5,45 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 0.78rem 1.82rem;
-  padding-left: 5.2rem;
+  padding: 0.78rem 22.5rem 0.78rem 18.2rem;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
 
-  .logo {
-    h1 {
-      font-size: 2.5rem;
+  a {
+    text-decoration: none;
+    
+    .logo {
+      &__text {
+        font-size: 2.5rem;
+        background-color: rgb(65, 65, 65);
+        color: whitesmoke;
+        padding: 0.5rem;
+        border-radius: 0.7rem;
+  
+        .open-bracket {
+          color: #0b97c2;
+        }
+  
+        .closed-bracket {
+          color: #f133a2;
+        }
+      }
     }
   }
 
   .navlinks {
-    padding: 0.8rem 8.1rem 2.5rem 10.1rem;
+    padding: 1.8rem 8.1rem 2.5rem 10.1rem;
     display: flex;
     flex-direction: row;
-    align-items: center;    
-    
-    &__list{
+    align-items: center;
+
+    &__list {
       list-style-type: none;
       display: flex;
       flex-direction: row;
-      gap: 3rem;      
+      gap: 6.7rem;
       height: 30px;
 
       &__item {
@@ -47,11 +65,12 @@
       list-style-type: none;
       display: flex;
       flex-direction: row;
-      gap: 1rem;
+      gap: 2rem;
       margin-left: 5rem;
 
       &__item:hover {
-        filter: invert(55%) sepia(61%) saturate(7270%) hue-rotate(170deg) brightness(101%) contrast(91%);
+        filter: invert(55%) sepia(61%) saturate(7270%) hue-rotate(170deg)
+          brightness(101%) contrast(91%);
       }
     }
   }
