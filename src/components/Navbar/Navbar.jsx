@@ -1,6 +1,21 @@
 import "./Navbar.scss";
 
 export default function Navbar() {
+  const onApplyNavBorderBottom = () => {
+    const scrollPosition = window.scrollY;
+    const navBar = document.querySelector(".navbar");
+
+    if (scrollPosition > 900) {
+      navBar.classList.add("nav-bottom-border");
+    } else {
+      navBar.classList.remove("nav-bottom-border");
+    }
+  };
+
+  document.addEventListener("scroll", () => {
+    onApplyNavBorderBottom();
+  });
+
   return (
     <div className="navbar">
       <section className="logo">

@@ -13,19 +13,19 @@
 
   a {
     text-decoration: none;
-    
+
     .logo {
       &__text {
         font-size: 2.5rem;
-        background-color: rgb(65, 65, 65);
+        background-color: #414141;
         color: whitesmoke;
         padding: 0.5rem;
         border-radius: 0.7rem;
-  
+
         .open-bracket {
           color: #0b97c2;
         }
-  
+
         .closed-bracket {
           color: #f133a2;
         }
@@ -74,4 +74,9 @@
       }
     }
   }
+}
+
+.nav-bottom-border {
+  border-bottom: 2px solid #666666;
+  border-image-slice: 1;
 }

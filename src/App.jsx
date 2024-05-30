@@ -8,13 +8,13 @@ function App() {
     <>
       <div className="">
         <section className="">
-          <Navbar/>
+          <Navbar />
         </section>
         <section className="">
-          <Hero/>
+          <Hero />
         </section>
         <section className="">
-          <About/>
+          <About />
         </section>
         <section className="skills"></section>
         <section className="projects"></section>

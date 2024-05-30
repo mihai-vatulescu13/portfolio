@@ -32,15 +32,17 @@ export default function About() {
           <p className="experience__details__bracket">{"}"}</p>
           {/* here we need a calculator that calculate the overall experience form the all stages: */}
           <p className="experience__details__years">
-            3 Years of <br /> overall experience
+            3 Years of <br /> overall <span>experience</span>
           </p>
         </div>
       </section>
 
       <section className="education">
-        <h1 className="about-title">Education</h1>
+        <h1 className="about-title">Education &#128214;</h1>
         <ExperienceItem props={educationData} />
       </section>
     </div>
   );
 }
+
+//&#8987; -> time icon
